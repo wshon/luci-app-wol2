@@ -1,0 +1,13 @@
+{
+	"admin/services/wol2": {
+		"title": "Wake on LAN2",
+		"order": 90,
+		"action": {
+			"type": "view",
+			"path": "wol2"
+		},
+		"depends": {
+			"acl": [ "luci-app-wol2" ]
+		}
+	}
+}
